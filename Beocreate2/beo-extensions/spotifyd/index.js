@@ -54,11 +54,7 @@ var fs = require("fs");
 			}
 			
 			readConfiguration();
-			if (configuration.global.username && !configuration.global.username.comment && configuration.global.password && !configuration.global.password.comment) {
-				settings.loggedInAs = configuration.global.username.value;
-			} else {
 				settings.loggedInAs = false;
-			}
 			if (sources && Object.keys(configuration).length == 0) {
 				sources.setSourceOptions("spotifyd", {
 					enabled: false
