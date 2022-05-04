@@ -31,7 +31,7 @@
 			{"name": "network", "kind": "extension"},
 			{"name": "general-settings", "kind": "extension"},
 			{"kind": "separator"},
-			{"name": "interact", "kind": "extension"},
+			
 			{"name": "feedback", "kind": "extension"}
 		]},
 		{"id": "focused", "name": "Focused", "description": "Shortcuts focused on daily use", "items": [
